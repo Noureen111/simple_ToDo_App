@@ -1,0 +1,265 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    background-color: black;
+}
+
+h2{
+    margin-top: 200px !important;
+    margin-bottom: 40px;
+    font-size: 50px;
+    font-weight: 100px;
+    text-align: center;
+    color: whitesmoke;
+    font-family: sans-serif;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 100px;
+    margin: 40px 20px;
+    text-align: center;
+    color: whitesmoke;
+    /* text-decoration: underline; */
+    font-family: sans-serif;
+}
+
+.spn{
+    font-size: 50px;
+    color: lime;
+}
+
+.input_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#input1{
+    padding: 20px;
+    height: 50px !important;
+    outline: none;
+    background-color: whitesmoke;
+    width: 350px;
+    font-size: 30px;
+    border-radius: 25px;
+    margin: 7px;
+    border: none;
+}
+
+.text{
+    margin-left: 10px !important;
+}
+
+.addBtn{
+    height: 50px;
+    width: 50px;
+    border-radius: 15px;
+    outline: none;
+    color: whitesmoke;
+    background-color: whitesmoke;
+    border: none;
+    background-color: lime;
+    font-weight: bold;
+}
+
+.addBtn:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+
+
+.delAll{
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+    outline: none;
+    border: none;   
+    margin: 5px;
+    color: whitesmoke;
+    background-color: lime;
+    font-weight: bold;
+}
+
+.delAll:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin-top: 2rem;
+
+}
+
+.list{
+    margin-top: 60px;
+    padding: 0.5rem;
+    border-bottom: 4px solid #fff;
+}
+
+label[for='new-task'] {
+    display: block;
+    margin: 0 0 20px;
+    margin-left: 10px;
+}
+
+  .container {
+    display: block;
+    width: 400px;
+    margin: 100px auto 0;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  li * {
+    float: left;
+  }
+
+  .label2{
+      margin-bottom: 20px;
+  }
+
+li {
+    overflow: hidden;
+    padding: 20px 0;
+    border-bottom: 1px solid #eee;
+  }
+
+#completed-tasks input[type="checkbox"] {
+    position: relative;
+    margin-top: 55px;
+    padding: 5px;
+    overflow: hidden;
+}
+
+li > input[type="checkbox"]:hover{
+    color: lime;
+}
+
+li > label {
+    font-size: 25px;
+    line-height: 40px;
+    width: 237px;
+    color: whitesmoke;
+    overflow: hidden;
+  }
+
+li >  input[type="text"] {
+    width: 226px;
+}
+
+
+ul li.checked::before {
+    content: '';
+    position: absolute;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+  }
+
+  #list label{
+    padding: 10px 10px 10px 10px;
+    margin-left: -30px;
+    overflow: hidden;
+    margin-top: -22px;
+  }
+
+  #list button{
+      margin-left: 15px;
+      margin-top: -5px;
+  }
+
+.delBtn{
+    padding: 4px;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    align-content: right;
+}
+
+.editBtn{
+    padding: 4px;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    align-content: right;
+    margin-left: 38px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.editBtn:hover{
+    background-color: lime;
+}
+
+.delBtn:hover{
+    background-color: lime;
+}
+
+
+/* task completed */
+
+#completed-tasks label{
+    text-decoration: line-through;
+    color: #888;
+    padding: 10px;
+    margin-top: -25px;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+ul li input[type=text] {
+    display:none;
+}
+
+#completed-tasks button{
+    padding: 4px;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    align-content: right;
+    margin-left: 100px;
+    margin-top: 33px;
+}
+
+#completed-tasks button:hover{
+    cursor: pointer;
+    background-color: lime;
+}
+
+ul li.editMode input[type=text] {
+    display:block;
+    border: none;
+    outline: none;
+    height: 35px;
+    font-size: 25px;
+    color: whitesmoke;
+    background-color: black;
+    padding: 5px;
+    width: 200px;
+    transition: 0.5ms;
+    margin-top: -15px;
+    margin-left: 10px;
+  }
+  
+  ul li.editMode label {
+    display:none;
+  }
