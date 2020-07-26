@@ -202,7 +202,7 @@ ul li.checked::before {
     border: none;
     outline: none;
     align-content: right;
-    margin-left: 38px;
+    margin-left: 42px !important;
     margin-top: 50px;
     cursor: pointer;
 }
@@ -237,7 +237,7 @@ ul li input[type=text] {
     border: none;
     outline: none;
     align-content: right;
-    margin-left: 100px;
+    margin-left: 90px;
     margin-top: 33px;
 }
 

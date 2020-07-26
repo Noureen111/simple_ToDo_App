@@ -37,11 +37,11 @@ function getInput()
     val.value = "";
 
     var delBtn = document.createElement("button");
-    var detText = document.createTextNode("DELETE");
+    var detText = document.createTextNode("Delete");
     delBtn.appendChild(detText);
 
     var editBtn = document.createElement("button");
-    var editText = document.createTextNode("EDIT");
+    var editText = document.createTextNode("Edit");
     editBtn.appendChild(editText);
 
     editBtn.setAttribute("onClick","editItem(this)");
