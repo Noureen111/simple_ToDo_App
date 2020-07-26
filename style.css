@@ -46,7 +46,7 @@ h1{
     height: 50px !important;
     outline: none;
     background-color: whitesmoke;
-    width: 300px;
+    width: 250px;
     font-size: 30px;
     border-radius: 25px;
     margin: 7px;
@@ -66,7 +66,7 @@ h1{
     background-color: whitesmoke;
     border: none;
     background-color: lime;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 .addBtn:hover{
@@ -85,7 +85,7 @@ h1{
     margin: 5px;
     color: whitesmoke;
     background-color: lime;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 .delAll:hover{
